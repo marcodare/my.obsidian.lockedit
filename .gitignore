@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output (shipped via release / install:vault, not versioned)
+main.js
+*.map
+
+# Obsidian plugin runtime data
+data.json
+
+# Local environment (vault path)
+.env
+.env.*
+!.env.example
+
+# Tooling
+coverage/
+*.log
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store

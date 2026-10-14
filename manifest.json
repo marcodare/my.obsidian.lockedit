@@ -1,0 +1,10 @@
+{
+  "id": "my-obsidian-lockedit",
+  "name": "My Obsidian Lock Edit",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Lock notes in Reading view to prevent accidental editing; toggle the lock from the view header, the ribbon, or the command palette.",
+  "author": "Marco Da Re",
+  "authorUrl": "https://github.com/marcodare",
+  "isDesktopOnly": false
+}

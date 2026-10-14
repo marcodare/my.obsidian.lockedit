@@ -1,0 +1,13 @@
+/* Lock buttons: white in dark themes, full-contrast text colour in light themes.
+   `body` + double class beats Obsidian's `.clickable-icon` / `.view-action` muted colour. */
+body .my-obsidian-lockedit-button.clickable-icon,
+body .my-obsidian-lockedit-button.clickable-icon:hover {
+  color: var(--text-normal);
+  --icon-color: var(--text-normal);
+}
+
+body.theme-dark .my-obsidian-lockedit-button.clickable-icon,
+body.theme-dark .my-obsidian-lockedit-button.clickable-icon:hover {
+  color: #fff;
+  --icon-color: #fff;
+}
